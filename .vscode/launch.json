@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run DatabaseManager",
+            "request": "launch",
+            "mainClass": "DatabaseManager",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/*"
+            ]
+        }
+    ]
+}
